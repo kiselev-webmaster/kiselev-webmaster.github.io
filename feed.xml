@@ -1,4 +1,20 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-06-23T14:09:45+03:00</updated><id>http://localhost:4000/</id><title type="html">Портфолио</title><subtitle>Верстка сайтов в Краснодарском крае</subtitle><author><name>Киселев Денис</name></author><entry><title type="html">Сувенирная лавка Сколково</title><link href="http://localhost:4000/portfolio/skolkovo/" rel="alternate" type="text/html" title="Сувенирная лавка Сколково" /><published>2017-06-21T00:00:00+03:00</published><updated>2017-06-21T00:00:00+03:00</updated><id>http://localhost:4000/portfolio/skolkovo</id><content type="html" xml:base="http://localhost:4000/portfolio/skolkovo/">&lt;h2&gt;Skolkovo&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-06-23T16:33:22+03:00</updated><id>http://localhost:4000/</id><title type="html">Портфолио</title><subtitle>Верстка сайтов в Краснодарском крае</subtitle><author><name>Киселев Денис</name></author><entry><title type="html">Одностраничный сайт ЖК Янтарь</title><link href="http://localhost:4000/portfolio/yantar/" rel="alternate" type="text/html" title="Одностраничный сайт ЖК Янтарь" /><published>2017-06-21T00:00:00+03:00</published><updated>2017-06-21T00:00:00+03:00</updated><id>http://localhost:4000/portfolio/yantar</id><content type="html" xml:base="http://localhost:4000/portfolio/yantar/">&lt;h2&gt;ЖК Янтарь&lt;/h2&gt;
+&lt;p&gt;
+&lt;b&gt;Движок сайта:&lt;/b&gt; Wordpress&lt;br&gt;
+&lt;b&gt;Время выполнения:&lt;/b&gt; 10 дней
+&lt;/p&gt;
+&lt;br&gt;
+
+&lt;img src=&quot;/assents/portfolio/yantar/yantar-1.jpg&quot;&gt;
+&lt;img src=&quot;/assents/portfolio/yantar/yantar-2.jpg&quot;&gt;
+&lt;img src=&quot;/assents/portfolio/yantar/yantar-3.jpg&quot;&gt;</content><author><name>Киселев Денис</name></author><summary type="html">ЖК Янтарь Движок сайта: Wordpress Время выполнения: 10 дней</summary></entry><entry><title type="html">Одностраничный сайт UBER</title><link href="http://localhost:4000/portfolio/uber/" rel="alternate" type="text/html" title="Одностраничный сайт UBER" /><published>2017-06-21T00:00:00+03:00</published><updated>2017-06-21T00:00:00+03:00</updated><id>http://localhost:4000/portfolio/uber</id><content type="html" xml:base="http://localhost:4000/portfolio/uber/">&lt;h2&gt;UBER&lt;/h2&gt;
+&lt;p&gt;
+&lt;b&gt;Движок сайта:&lt;/b&gt; Wordpress&lt;br&gt;
+&lt;b&gt;Время выполнения:&lt;/b&gt; 7 дней
+&lt;/p&gt;
+&lt;br&gt;
+
+&lt;img src=&quot;/assents/portfolio/uber/uber.jpg&quot;&gt;</content><author><name>Киселев Денис</name></author><summary type="html">UBER Движок сайта: Wordpress Время выполнения: 7 дней</summary></entry><entry><title type="html">Сувенирная лавка Сколково</title><link href="http://localhost:4000/portfolio/skolkovo/" rel="alternate" type="text/html" title="Сувенирная лавка Сколково" /><published>2017-06-21T00:00:00+03:00</published><updated>2017-06-21T00:00:00+03:00</updated><id>http://localhost:4000/portfolio/skolkovo</id><content type="html" xml:base="http://localhost:4000/portfolio/skolkovo/">&lt;h2&gt;Skolkovo&lt;/h2&gt;
 &lt;p&gt;
 &lt;b&gt;Адрес сайта:&lt;/b&gt; http://shop.skolkovo.ru/&lt;br&gt;
 &lt;b&gt;Движок сайта:&lt;/b&gt; Shop-Script 7&lt;br&gt;
@@ -11,9 +27,32 @@
 &lt;img src=&quot;/assents/portfolio/skolkovo/skolkovo-2.jpg&quot; alt=&quot;Сколково - страница категории&quot;&gt;
 &lt;img src=&quot;/assents/portfolio/skolkovo/skolkovo-3.jpg&quot; alt=&quot;Сколково - карточка товара&quot;&gt;
 &lt;img src=&quot;/assents/portfolio/skolkovo/skolkovo-4.jpg&quot; alt=&quot;Сколково - статическая страница&quot;&gt;
-&lt;img src=&quot;/assents/portfolio/skolkovo/skolkovo-5.jpg&quot; alt=&quot;Сколково - оформление заказа&quot;&gt;</content><author><name>Киселев Денис</name></author><summary type="html">Skolkovo Адрес сайта: http://shop.skolkovo.ru/ Движок сайта: Shop-Script 7 Время выполнения: 35 дней Пожалуй, один и крупных моих проектов. Работа усложнялась тем, что сайт необходимо было разработать на неизместной мне CMS Shop-Script. Тем неменее изучение этого движка не вызволо особых усилий, был сверстан макет и &quot;натянут&quot; шаблон на движок. Дополнительно был разработат весь необходимый функционал сайта.</summary></entry><entry><title type="html">Одностраничный сайт Дом на колесах</title><link href="http://localhost:4000/portfolio/mobidacha/" rel="alternate" type="text/html" title="Одностраничный сайт Дом на колесах" /><published>2017-06-21T00:00:00+03:00</published><updated>2017-06-21T00:00:00+03:00</updated><id>http://localhost:4000/portfolio/mobidacha</id><content type="html" xml:base="http://localhost:4000/portfolio/mobidacha/">&lt;p&gt;
-    Верстка и разработка функционала интернет-магазина Сколково. Мобильная версия сайта
-&lt;/p&gt;</content><author><name>Киселев Денис</name></author><summary type="html">Верстка и разработка функционала интернет-магазина Сколково. Мобильная версия сайта</summary></entry><entry><title type="html">Одностраничный сайт по изготовлению лестниц в Краснодарском крае</title><link href="http://localhost:4000/portfolio/lestnicy/" rel="alternate" type="text/html" title="Одностраничный сайт по изготовлению лестниц в Краснодарском крае" /><published>2017-06-21T00:00:00+03:00</published><updated>2017-06-21T00:00:00+03:00</updated><id>http://localhost:4000/portfolio/lestnicy</id><content type="html" xml:base="http://localhost:4000/portfolio/lestnicy/"></content><author><name>Киселев Денис</name></author></entry><entry><title type="html">Корпоративный сайт ExLibris</title><link href="http://localhost:4000/portfolio/exlibris/" rel="alternate" type="text/html" title="Корпоративный сайт ExLibris" /><published>2017-06-21T00:00:00+03:00</published><updated>2017-06-21T00:00:00+03:00</updated><id>http://localhost:4000/portfolio/exlibris</id><content type="html" xml:base="http://localhost:4000/portfolio/exlibris/">&lt;h2&gt;ExLibris&lt;/h2&gt;
+&lt;img src=&quot;/assents/portfolio/skolkovo/skolkovo-5.jpg&quot; alt=&quot;Сколково - оформление заказа&quot;&gt;</content><author><name>Киселев Денис</name></author><summary type="html">Skolkovo Адрес сайта: http://shop.skolkovo.ru/ Движок сайта: Shop-Script 7 Время выполнения: 35 дней Пожалуй, один и крупных моих проектов. Работа усложнялась тем, что сайт необходимо было разработать на неизместной мне CMS Shop-Script. Тем неменее изучение этого движка не вызволо особых усилий, был сверстан макет и &quot;натянут&quot; шаблон на движок. Дополнительно был разработат весь необходимый функционал сайта.</summary></entry><entry><title type="html">Одностраничный сайт Дом на колесах</title><link href="http://localhost:4000/portfolio/mobidacha/" rel="alternate" type="text/html" title="Одностраничный сайт Дом на колесах" /><published>2017-06-21T00:00:00+03:00</published><updated>2017-06-21T00:00:00+03:00</updated><id>http://localhost:4000/portfolio/mobidacha</id><content type="html" xml:base="http://localhost:4000/portfolio/mobidacha/">&lt;h2&gt;Дома на колесах&lt;/h2&gt;
+&lt;p&gt;
+&lt;b&gt;Адрес сайта:&lt;/b&gt; http://mobidacha.ru/&lt;br&gt;
+&lt;b&gt;Движок сайта:&lt;/b&gt; Wordpress&lt;br&gt;
+&lt;b&gt;Время выполнения:&lt;/b&gt; 6 дней
+&lt;/p&gt;
+&lt;br&gt;
+&lt;img src=&quot;/assents/portfolio/mobidacha/mobidacha-1.jpg&quot; alt=&quot;mobidacha&quot;&gt;</content><author><name>Киселев Денис</name></author><summary type="html">Дома на колесах Адрес сайта: http://mobidacha.ru/ Движок сайта: Wordpress Время выполнения: 6 дней</summary></entry><entry><title type="html">Одностраничный сайт по изготовлению лестниц в Краснодарском крае</title><link href="http://localhost:4000/portfolio/lestnicy/" rel="alternate" type="text/html" title="Одностраничный сайт по изготовлению лестниц в Краснодарском крае" /><published>2017-06-21T00:00:00+03:00</published><updated>2017-06-21T00:00:00+03:00</updated><id>http://localhost:4000/portfolio/lestnicy</id><content type="html" xml:base="http://localhost:4000/portfolio/lestnicy/">&lt;h2&gt;Лестницы Краснодарского края&lt;/h2&gt;
+&lt;p&gt;
+&lt;b&gt;Адрес сайта:&lt;/b&gt; http://лестницы-краснодарского-края.рф&lt;br&gt;
+&lt;b&gt;Движок сайта:&lt;/b&gt; Wordpress&lt;br&gt;
+&lt;b&gt;Время выполнения:&lt;/b&gt; 3 дня
+&lt;/p&gt;
+&lt;br&gt;
+&lt;img src=&quot;/assents/portfolio/lestnicy/lestnicy-1.jpg&quot; alt=&quot;lestnicy&quot;&gt;
+&lt;img src=&quot;/assents/portfolio/lestnicy/lestnicy-2.jpg&quot; alt=&quot;lestnicy - модальное окно&quot;&gt;</content><author><name>Киселев Денис</name></author><summary type="html">Лестницы Краснодарского края Адрес сайта: http://лестницы-краснодарского-края.рф Движок сайта: Wordpress Время выполнения: 3 дня</summary></entry><entry><title type="html">Ремонт грузовиков</title><link href="http://localhost:4000/portfolio/gruzovik/" rel="alternate" type="text/html" title="Ремонт грузовиков" /><published>2017-06-21T00:00:00+03:00</published><updated>2017-06-21T00:00:00+03:00</updated><id>http://localhost:4000/portfolio/gruzovik</id><content type="html" xml:base="http://localhost:4000/portfolio/gruzovik/">&lt;h2&gt;Ремонт грузовиков&lt;/h2&gt;
+&lt;p&gt;
+&lt;b&gt;Движок сайта:&lt;/b&gt; Wordpress&lt;br&gt;
+&lt;b&gt;Время выполнения:&lt;/b&gt; 12 дней
+&lt;/p&gt;
+&lt;br&gt;
+
+&lt;img src=&quot;/assents/portfolio/gruzovik/gruzovik-1.jpg&quot;&gt;
+&lt;img src=&quot;/assents/portfolio/gruzovik/gruzovik-2.jpg&quot;&gt;
+&lt;img src=&quot;/assents/portfolio/gruzovik/gruzovik-3.jpg&quot;&gt;
+&lt;img src=&quot;/assents/portfolio/gruzovik/gruzovik-4.jpg&quot;&gt;</content><author><name>Киселев Денис</name></author><summary type="html">Ремонт грузовиков Движок сайта: Wordpress Время выполнения: 12 дней</summary></entry><entry><title type="html">Корпоративный сайт ExLibris</title><link href="http://localhost:4000/portfolio/exlibris/" rel="alternate" type="text/html" title="Корпоративный сайт ExLibris" /><published>2017-06-21T00:00:00+03:00</published><updated>2017-06-21T00:00:00+03:00</updated><id>http://localhost:4000/portfolio/exlibris</id><content type="html" xml:base="http://localhost:4000/portfolio/exlibris/">&lt;h2&gt;ExLibris&lt;/h2&gt;
 &lt;p&gt;
 &lt;b&gt;Адрес сайта:&lt;/b&gt; http://temp.exlibris.ru/&lt;br&gt;
 &lt;b&gt;Движок сайта:&lt;/b&gt; Wordpress&lt;br&gt;
@@ -26,9 +65,15 @@
 &lt;img src=&quot;/assents/portfolio/exlibris/exlibris-2.jpg&quot; alt=&quot;Сколково - страница категории&quot;&gt;
 &lt;img src=&quot;/assents/portfolio/exlibris/exlibris-3.jpg&quot; alt=&quot;Сколково - карточка товара&quot;&gt;
 &lt;img src=&quot;/assents/portfolio/exlibris/exlibris-4.jpg&quot; alt=&quot;Сколково - статическая страница&quot;&gt;
-&lt;img src=&quot;/assents/portfolio/exlibris/exlibris-5.jpg&quot; alt=&quot;Сколково - оформление заказа&quot;&gt;</content><author><name>Киселев Денис</name></author><summary type="html">ExLibris Адрес сайта: http://temp.exlibris.ru/ Движок сайта: Wordpress Время выполнения: [ в работе ] Большой проект, над которым работаю по сей день. Изначально предпологалось сделать простой ре-дизайн основного сайта компании, по итогу сайт перенесли на другой движок, был переработан весь функционал сайта и неоднократно был переработан весь дизайн сайта. Благодаря продуманной структуре стилей и разметки html есть возможность легко и быстро вносить любые поправки в дизайне сайта.</summary></entry><entry><title type="html">Сайт-каталог компании Экотрейд</title><link href="http://localhost:4000/portfolio/ecotr/" rel="alternate" type="text/html" title="Сайт-каталог компании Экотрейд" /><published>2017-06-21T00:00:00+03:00</published><updated>2017-06-21T00:00:00+03:00</updated><id>http://localhost:4000/portfolio/ecotr</id><content type="html" xml:base="http://localhost:4000/portfolio/ecotr/">&lt;p&gt;
-    Верстка и разработка функционала интернет-магазина Сколково. Мобильная версия сайта
-&lt;/p&gt;</content><author><name>Киселев Денис</name></author><summary type="html">Верстка и разработка функционала интернет-магазина Сколково. Мобильная версия сайта</summary></entry><entry><title type="html">Верстка отдельной страницы компании Coffee and the City</title><link href="http://localhost:4000/portfolio/coffeeandthecity/" rel="alternate" type="text/html" title="Верстка отдельной страницы компании Coffee and the City" /><published>2017-06-21T00:00:00+03:00</published><updated>2017-06-21T00:00:00+03:00</updated><id>http://localhost:4000/portfolio/coffeeandthecity</id><content type="html" xml:base="http://localhost:4000/portfolio/coffeeandthecity/">&lt;h2&gt;Coffee and the City&lt;/h2&gt;
+&lt;img src=&quot;/assents/portfolio/exlibris/exlibris-5.jpg&quot; alt=&quot;Сколково - оформление заказа&quot;&gt;</content><author><name>Киселев Денис</name></author><summary type="html">ExLibris Адрес сайта: http://temp.exlibris.ru/ Движок сайта: Wordpress Время выполнения: [ в работе ] Большой проект, над которым работаю по сей день. Изначально предпологалось сделать простой ре-дизайн основного сайта компании, по итогу сайт перенесли на другой движок, был переработан весь функционал сайта и неоднократно был переработан весь дизайн сайта. Благодаря продуманной структуре стилей и разметки html есть возможность легко и быстро вносить любые поправки в дизайне сайта.</summary></entry><entry><title type="html">Сайт-каталог компании Экотрейд</title><link href="http://localhost:4000/portfolio/ecotr/" rel="alternate" type="text/html" title="Сайт-каталог компании Экотрейд" /><published>2017-06-21T00:00:00+03:00</published><updated>2017-06-21T00:00:00+03:00</updated><id>http://localhost:4000/portfolio/ecotr</id><content type="html" xml:base="http://localhost:4000/portfolio/ecotr/">&lt;h2&gt;Экотрейд&lt;/h2&gt;
+&lt;p&gt;
+&lt;b&gt;Адрес сайта:&lt;/b&gt; http://www.ecotr.ru/&lt;br&gt;
+&lt;b&gt;Движок сайта:&lt;/b&gt; Wordpress&lt;br&gt;
+&lt;b&gt;Время выполнения:&lt;/b&gt; 14 дней
+&lt;/p&gt;
+&lt;br&gt;
+&lt;img src=&quot;/assents/portfolio/ecotr/ecotr-1.jpg&quot; alt=&quot;ecotr&quot;&gt;
+&lt;img src=&quot;/assents/portfolio/ecotr/ecotr-2.jpg&quot; alt=&quot;ecotr - каталог&quot;&gt;</content><author><name>Киселев Денис</name></author><summary type="html">Экотрейд Адрес сайта: http://www.ecotr.ru/ Движок сайта: Wordpress Время выполнения: 14 дней</summary></entry><entry><title type="html">Верстка отдельной страницы компании Coffee and the City</title><link href="http://localhost:4000/portfolio/coffeeandthecity/" rel="alternate" type="text/html" title="Верстка отдельной страницы компании Coffee and the City" /><published>2017-06-21T00:00:00+03:00</published><updated>2017-06-21T00:00:00+03:00</updated><id>http://localhost:4000/portfolio/coffeeandthecity</id><content type="html" xml:base="http://localhost:4000/portfolio/coffeeandthecity/">&lt;h2&gt;Coffee and the City&lt;/h2&gt;
 &lt;p&gt;
 &lt;b&gt;Адрес сайта:&lt;/b&gt; http://coffeeandthecity.ru/rabota-u-nas/&lt;br&gt;
 &lt;b&gt;Движок сайта:&lt;/b&gt; Wordpress&lt;br&gt;

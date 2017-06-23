@@ -159,6 +159,7 @@ header.post{
             display: flex;
             justify-content: space-between;
             align-items: center;
+            align-content: center;
             @include resp-size(sm){
                 flex-direction: column;
             }
@@ -169,6 +170,9 @@ header.post{
         .logo{
             @include resp-size(sm){
                 margin-bottom: 20px;
+            }
+            @include resp-size(xs){
+                margin-bottom: 0;
             }
             a{
                 text-decoration: none;
@@ -183,6 +187,7 @@ header.post{
             .burger{
                 display: none;
                 color: #fff;
+                font-size: 22px;
                 @include resp-size(xs){
                     display: block;
                 }
