@@ -379,6 +379,13 @@ section.coral {
   section.coral h2:after {
     background: #fff; }
 
+section.contact {
+  background: #3f3f49; }
+  section.contact h2 {
+    color: #fff; }
+  section.contact p {
+    color: #fff; }
+
 .skill-wrap {
   display: flex;
   flex-wrap: wrap;
@@ -446,3 +453,16 @@ p.snoska {
 
 .post {
   padding: 50px 0; }
+
+footer {
+  background: #0a0a0a;
+  padding: 20px 0;
+  color: #fff; }
+  footer .container {
+    display: flex;
+    justify-content: space-between; }
+    footer .container div {
+      width: 30%;
+      flex-basis: 30%; }
+    footer .container a {
+      color: #fff; }
