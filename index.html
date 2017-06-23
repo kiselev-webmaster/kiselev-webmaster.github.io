@@ -5,7 +5,7 @@
 
     <meta charset="utf-8">
 
-    <title>Портфолио - Киселев Денис | Киселев Денис</title>
+    <title>Портфолио | Киселев Денис</title>
     <meta name="description" content="Верстка сайтов в Краснодарском крае">
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -27,19 +27,22 @@
 </head>
 
 <body>
-    <header class="home">
+    <header id="header" class="home">
     <div class="header-nav">
     <div class="container">
 
         <div class="logo"><a href="/"><span><</span> kiselev-webmaster <span>/></span></a></div>
         <nav>
+           <div class="burger">
+               <i class="fa fa-bars" aria-hidden="true"></i>
+           </div>
             <ul>
-                <li><a href="">Чем я занимаюсь</a></li>
-                <li><a href="">Мои навыки</a></li>
-                <li><a href="">Портфолио</a></li>
-                <li><a href="">Бриф</a></li>
-                <li><a href="">Контакты</a></li>
-            </ul>
+    <li><a href="#main" class='skroll'>Чем я занимаюсь</a></li>
+    <li><a href="#skill" class='skroll'>Мои навыки</a></li>
+    <li><a href="#portfolio" class='skroll'>Портфолио</a></li>
+    <li><a href="#contact" class='skroll'>Контакты</a></li>
+</ul>
+
         </nav>
     </div>
 </div>
@@ -51,8 +54,8 @@
             <div class="media">
                 <a href="https://vk.com/id55520678" target="_blank"><i class="fa fa-vk" aria-hidden="true"></i></a>
                 <a href="https://www.instagram.com/denis_kiselev/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                <a href=""><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
-                <a href=""><i class="fa fa-telegram" aria-hidden="true"></i></a>
+                <a href="https://api.whatsapp.com/send?phone=79180393892&text=Мне%нужен%20сайт%20:)" target="_blank"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+                <a href="tg://resolve?domain=kiselev_webmaster" target="_blank"><i class="fa fa-telegram" aria-hidden="true"></i></a>
             </div>
         </div>
     </div>
@@ -76,7 +79,7 @@
         </div>
         <div class="right img-center"><img src="/assents/img/open-position-frontend-developer-dribbble-2-preview-coral.png" alt="" width="70%"></div>
     </section>
-<section class="coral">
+<section id="skill" class="coral">
         <div class="container">
                 <div class="skill-wrap">
                    <h2>Мои навыки *</h2>
@@ -127,7 +130,7 @@
             </div>
         </div>
     </section>
-<section class="portfolio">
+<section id="portfolio" class="portfolio">
     <div class="container">
         <h2>Портфолио</h2>
         <p>Одни из последних моих работ</p>
@@ -136,74 +139,74 @@
         
         <div class="portfolio-item">
             <div class="facade-minimal" data-url="http://shop.skolkovo.ru/">
-                <div class="portfolio-preview">
+                <a href="/portfolio/skolkovo/" class="portfolio-preview">
                     <img src="/assents/portfolio/preview-skolkovo.jpg" alt="Сувенирная лавка Сколково">
-                </div>
+                </a>
             </div>
             <div class="portfolio-title">
-                    <a href="/portfolio/skolkovo/">Сувенирная лавка Сколково</a>
-                </div>
+                <a href="/portfolio/skolkovo/">Сувенирная лавка Сколково</a>
+            </div>
         </div>
         
         <div class="portfolio-item">
             <div class="facade-minimal" data-url="http://mobidacha.ru/">
-                <div class="portfolio-preview">
+                <a href="/portfolio/mobidacha/" class="portfolio-preview">
                     <img src="/assents/portfolio/preview-mobidacha.jpg" alt="Одностраничный сайт Дом на колесах">
-                </div>
+                </a>
             </div>
             <div class="portfolio-title">
-                    <a href="/portfolio/mobidacha/">Одностраничный сайт Дом на колесах</a>
-                </div>
+                <a href="/portfolio/mobidacha/">Одностраничный сайт Дом на колесах</a>
+            </div>
         </div>
         
         <div class="portfolio-item">
             <div class="facade-minimal" data-url="http://лестницы-краснодарского-края.рф">
-                <div class="portfolio-preview">
+                <a href="/portfolio/lestnicy/" class="portfolio-preview">
                     <img src="/assents/portfolio/preview-lestnicy.jpg" alt="Одностраничный сайт по изготовлению лестниц в Краснодарском крае">
-                </div>
+                </a>
             </div>
             <div class="portfolio-title">
-                    <a href="/portfolio/lestnicy/">Одностраничный сайт по изготовлению лестниц в Краснодарском крае</a>
-                </div>
+                <a href="/portfolio/lestnicy/">Одностраничный сайт по изготовлению лестниц в Краснодарском крае</a>
+            </div>
         </div>
         
         <div class="portfolio-item">
             <div class="facade-minimal" data-url="http://temp.exlibris.ru/">
-                <div class="portfolio-preview">
+                <a href="/portfolio/exlibris/" class="portfolio-preview">
                     <img src="/assents/portfolio/preview-exlibris.png" alt="Корпоративный сайт ExLibris">
-                </div>
+                </a>
             </div>
             <div class="portfolio-title">
-                    <a href="/portfolio/exlibris/">Корпоративный сайт ExLibris</a>
-                </div>
+                <a href="/portfolio/exlibris/">Корпоративный сайт ExLibris</a>
+            </div>
         </div>
         
         <div class="portfolio-item">
             <div class="facade-minimal" data-url="http://www.ecotr.ru/">
-                <div class="portfolio-preview">
+                <a href="/portfolio/ecotr/" class="portfolio-preview">
                     <img src="/assents/portfolio/preview-ecotr.jpg" alt="Сайт-каталог компании Экотрейд">
-                </div>
+                </a>
             </div>
             <div class="portfolio-title">
-                    <a href="/portfolio/ecotr/">Сайт-каталог компании Экотрейд</a>
-                </div>
+                <a href="/portfolio/ecotr/">Сайт-каталог компании Экотрейд</a>
+            </div>
         </div>
         
         <div class="portfolio-item">
             <div class="facade-minimal" data-url="http://coffeeandthecity.ru/rabota-u-nas/">
-                <div class="portfolio-preview">
+                <a href="/portfolio/coffeeandthecity/" class="portfolio-preview">
                     <img src="/assents/portfolio/preview-coffeeandthecity.jpg" alt="Верстка отдельной страницы компании Coffee and the City">
-                </div>
+                </a>
             </div>
             <div class="portfolio-title">
-                    <a href="/portfolio/coffeeandthecity/">Верстка отдельной страницы компании Coffee and the City</a>
-                </div>
+                <a href="/portfolio/coffeeandthecity/">Верстка отдельной страницы компании Coffee and the City</a>
+            </div>
         </div>
         
         </div>
     </div>
 </section>
-<section class="contact">
+<section id="contact" class="contact">
     <div class="container">
         <h2>Как со мной связаться</h2>
         <p>
@@ -225,9 +228,15 @@
 
 <footer>
     <div class="container">
-        <div class="left">2017</div>
-        <div class="center"></div>
-        <div class="right"><a href="">На вверх</a></div>
+        <div class="left">© 2017 <a href="kiselev-webmaster.ru">kiselev-webmaster.ru</a></div>
+        <div class="center"><ul>
+    <li><a href="#main" class='skroll'>Чем я занимаюсь</a></li>
+    <li><a href="#skill" class='skroll'>Мои навыки</a></li>
+    <li><a href="#portfolio" class='skroll'>Портфолио</a></li>
+    <li><a href="#contact" class='skroll'>Контакты</a></li>
+</ul>
+</div>
+        <div class="right"><a href="#header" class='skroll'>на вверх</a></div>
     </div>
 </footer>
 

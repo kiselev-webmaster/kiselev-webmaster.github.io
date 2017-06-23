@@ -213,7 +213,7 @@ body textarea:required:valid {
 
 .container {
   max-width: 1100px;
-  width: 100%;
+  width: 90%;
   margin: 0 auto; }
 
 body {
@@ -257,6 +257,9 @@ header.home {
       font-size: 74px;
       text-shadow: 0 1px 14px rgba(0, 0, 0, 0.49);
       margin-bottom: 20px; }
+      @media screen and (max-width: 560px) {
+        header.home .header-content h1 {
+          font-size: 64px; } }
       header.home .header-content h1 span {
         color: coral; }
     header.home .header-content p {
@@ -286,12 +289,12 @@ header.home {
   header.home .scroll-bottom {
     text-align: center;
     color: #fff;
-    font-size: 12px;
     font-weight: 100;
     padding: 10px 0;
     cursor: pointer; }
     header.home .scroll-bottom p {
-      opacity: .7; }
+      opacity: .7;
+      font-size: 12px; }
 
 header.post {
   position: relative;
@@ -326,17 +329,40 @@ header.post {
     padding: 20px 0;
     display: flex;
     justify-content: space-between;
-    align-items: center; }
+    align-items: center;
+    align-content: center; }
+    @media screen and (max-width: 780px) {
+      .header-nav .container {
+        flex-direction: column; } }
+    @media screen and (max-width: 560px) {
+      .header-nav .container {
+        flex-direction: row; } }
+  @media screen and (max-width: 780px) {
+    .header-nav .logo {
+      margin-bottom: 20px; } }
+  @media screen and (max-width: 560px) {
+    .header-nav .logo {
+      margin-bottom: 0; } }
   .header-nav .logo a {
     text-decoration: none;
     color: #fff;
     font-size: 22px; }
     .header-nav .logo a span {
       color: coral; }
+  .header-nav nav .burger {
+    display: none;
+    color: #fff;
+    font-size: 22px; }
+    @media screen and (max-width: 560px) {
+      .header-nav nav .burger {
+        display: block; } }
   .header-nav nav ul {
     padding: 0;
     margin: 0;
     list-style: none; }
+    @media screen and (max-width: 560px) {
+      .header-nav nav ul {
+        display: none; } }
     .header-nav nav ul li {
       display: inline-block; }
       .header-nav nav ul li a {
@@ -361,9 +387,16 @@ header.post {
 section {
   display: flex;
   padding: 80px 0; }
+  @media screen and (max-width: 780px) {
+    section {
+      flex-direction: column-reverse; } }
   section .left, section .right {
     width: 50%;
     flex-basis: 50%; }
+    @media screen and (max-width: 780px) {
+      section .left, section .right {
+        width: 100%;
+        flex-basis: 100%; } }
   section .img-center {
     display: flex;
     align-items: center;
@@ -404,6 +437,14 @@ section.contact {
     margin-bottom: 50px;
     display: flex;
     flex-wrap: nowrap; }
+    @media screen and (max-width: 780px) {
+      .skill-wrap .skill-item {
+        width: 50%;
+        flex-basis: 50%; } }
+    @media screen and (max-width: 560px) {
+      .skill-wrap .skill-item {
+        width: 100%;
+        flex-basis: 100%; } }
     .skill-wrap .skill-item > div:not(.skill-text) {
       flex-shrink: 0;
       margin-right: 20px; }
@@ -429,22 +470,24 @@ p.snoska {
     flex-basis: 30%; }
     @media screen and (max-width: 780px) {
       .portfolio-wrap .portfolio-item {
-        width: 50%;
-        flex-basis: 50%; } }
+        width: 48%;
+        flex-basis: 48%; } }
     @media screen and (max-width: 560px) {
       .portfolio-wrap .portfolio-item {
         width: 100%;
         flex-basis: 100%; } }
-    .portfolio-wrap .portfolio-item .portfolio-preview img {
-      object-fit: cover;
-      object-position: top;
-      width: 100%;
-      height: 250px;
-      transition: all 5s; }
-    .portfolio-wrap .portfolio-item .portfolio-preview:hover {
-      cursor: pointer; }
-      .portfolio-wrap .portfolio-item .portfolio-preview:hover img {
-        object-position: bottom; }
+    .portfolio-wrap .portfolio-item a.portfolio-preview {
+      display: block; }
+      .portfolio-wrap .portfolio-item a.portfolio-preview img {
+        object-fit: cover;
+        object-position: top;
+        width: 100%;
+        height: 250px;
+        transition: all 5s; }
+      .portfolio-wrap .portfolio-item a.portfolio-preview:hover {
+        cursor: pointer; }
+        .portfolio-wrap .portfolio-item a.portfolio-preview:hover img {
+          object-position: bottom; }
     .portfolio-wrap .portfolio-item .portfolio-title a {
       display: inline-block;
       margin: 10px 0;
@@ -457,12 +500,43 @@ p.snoska {
 footer {
   background: #0a0a0a;
   padding: 20px 0;
-  color: #fff; }
+  color: #fff;
+  font-size: 14px; }
   footer .container {
     display: flex;
-    justify-content: space-between; }
-    footer .container div {
-      width: 30%;
-      flex-basis: 30%; }
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 100; }
     footer .container a {
       color: #fff; }
+  footer .left, footer .right {
+    width: 20%;
+    flex-basis: 20%; }
+  footer .left a {
+    text-decoration: none; }
+  footer .center {
+    width: 60%;
+    flex-basis: 60%; }
+    footer .center ul {
+      padding: 0;
+      margin: 0;
+      width: 100%;
+      list-style: none;
+      text-align: center; }
+      footer .center ul li {
+        display: inline-block; }
+        footer .center ul li a {
+          text-decoration: none;
+          padding: 0 10px; }
+          footer .center ul li a:hover {
+            text-decoration: underline; }
+  footer .right {
+    text-align: right; }
+    footer .right a {
+      display: inline-block;
+      background: coral;
+      padding: 4px 10px;
+      text-decoration: none;
+      border-radius: 4px; }
+      footer .right a:hover {
+        background: #ff926a; }

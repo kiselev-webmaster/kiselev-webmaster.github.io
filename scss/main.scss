@@ -8,7 +8,7 @@
 @include sprites($spritesheet-sprites);
 %container{
     max-width: 1100px;
-    width: 100%;
+    width: 90%;
     margin: 0 auto;
 }
 .container{
@@ -66,6 +66,9 @@ header.home{
             font-size: 74px;
             text-shadow: 0 1px 14px rgba(0, 0, 0, 0.49);
             margin-bottom: 20px;
+            @include resp-size(xs){
+                font-size: 64px;
+            }
             span{
                 color: coral;
             }
@@ -103,12 +106,12 @@ header.home{
     .scroll-bottom{
         text-align: center;
         color: #fff;
-        font-size: 12px;
         font-weight: 100;
         padding: 10px 0;
         cursor: pointer;
         p{
             opacity: .7;
+            font-size: 12px;
         }
     }
 }
@@ -156,8 +159,17 @@ header.post{
             display: flex;
             justify-content: space-between;
             align-items: center;
+            @include resp-size(sm){
+                flex-direction: column;
+            }
+            @include resp-size(xs){
+                flex-direction: row;
+            }
         }
         .logo{
+            @include resp-size(sm){
+                margin-bottom: 20px;
+            }
             a{
                 text-decoration: none;
                 color: #fff;
@@ -168,10 +180,20 @@ header.post{
             }
         }
         nav{
+            .burger{
+                display: none;
+                color: #fff;
+                @include resp-size(xs){
+                    display: block;
+                }
+            }
             ul{
                 padding: 0;
                 margin: 0;
                 list-style: none;
+                @include resp-size(xs){
+                    display: none;
+                }
                 li{
                     display: inline-block;
                     a{
@@ -202,9 +224,16 @@ header.post{
 section{
     display: flex;
     padding: 80px 0;
+    @include resp-size(sm){
+        flex-direction: column-reverse;
+    }
     .left, .right{
         width: 50%;
         flex-basis: 50%;
+        @include resp-size(sm){
+            width: 100%;
+            flex-basis: 100%;
+        }
     }
     .img-center{
         display: flex;
@@ -259,6 +288,14 @@ section.contact{
         margin-bottom: 50px;
         display: flex;
         flex-wrap: nowrap;
+        @include resp-size(sm){
+            width: 50%;
+            flex-basis: 50%
+        }
+        @include resp-size(xs){
+            width: 100%;
+            flex-basis: 100%;
+        }
         > div:not(.skill-text){
             flex-shrink: 0;
             margin-right: 20px;
@@ -291,14 +328,15 @@ p.snoska{
         width: 30%;
         flex-basis: 30%;
         @include resp-size(sm){
-            width: 50%;
-            flex-basis: 50%;
+            width: 48%;
+            flex-basis: 48%;
         }
         @include resp-size(xs){
             width: 100%;
             flex-basis: 100%;
         }
-        .portfolio-preview{
+        a.portfolio-preview{
+            display: block;
             img{
                 object-fit: cover;
                 object-position: top;
@@ -328,21 +366,61 @@ p.snoska{
     padding: 50px 0;
 }
 
-footer{
+footer {
     background: #0a0a0a;
     padding: 20px 0;
     color: #fff;
-    .container{
+    font-size: 14px;
+    .container {
         display: flex;
         justify-content: space-between;
-        div{
-        width: 30%;
-        flex-basis: 30%;
+        align-items: center;
+        font-weight: 100;
+        a {
+            color: #fff;
+        }
     }
-    a{
-        color: #fff;
-        
+    .left, .right{
+        width: 20%;
+        flex-basis: 20%
     }
+    .left{
+        a{
+            text-decoration: none;
+        }
     }
-    
+    .center{
+        width: 60%;
+        flex-basis: 60%;
+        ul{
+            padding: 0;
+            margin: 0;
+            width: 100%;
+            list-style: none;
+            text-align: center;
+            li{
+                display: inline-block;
+                a{
+                    text-decoration: none;
+                    padding: 0 10px;
+                    &:hover{
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+    .right{
+        text-align: right;
+        a{
+            display: inline-block;
+            background: coral;
+            padding: 4px 10px;
+            text-decoration: none;
+            border-radius: 4px;
+            &:hover{
+                background: lighten(coral, 5%);
+            }
+        }
+    }
 }
