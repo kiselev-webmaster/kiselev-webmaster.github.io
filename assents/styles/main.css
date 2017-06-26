@@ -521,13 +521,14 @@ footer {
     text-decoration: none; }
   footer .center {
     width: 60%;
-    flex-basis: 60%; }
+    flex-basis: 60%;
+    text-align: center; }
     footer .center ul {
       padding: 0;
       margin: 0;
-      width: 100%;
       list-style: none;
-      text-align: center; }
+      text-align: center;
+      display: inline-block; }
       footer .center ul li {
         display: inline-block; }
         footer .center ul li a {
