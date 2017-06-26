@@ -222,6 +222,11 @@ body {
 h2 {
   font-size: 36px;
   display: inline-block; }
+  h2 span {
+    font-size: 50%;
+    color: coral; }
+    h2 span a {
+      color: coral; }
   h2:after {
     content: '';
     display: block;

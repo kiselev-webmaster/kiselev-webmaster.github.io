@@ -1,4 +1,110 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-06-23T17:22:53+03:00</updated><id>http://localhost:4000/</id><title type="html">Портфолио</title><subtitle>Верстка сайтов в Краснодарском крае</subtitle><author><name>Киселев Денис</name></author><entry><title type="html">Одностраничный сайт ЖК Янтарь</title><link href="http://localhost:4000/portfolio/yantar/" rel="alternate" type="text/html" title="Одностраничный сайт ЖК Янтарь" /><published>2017-06-21T00:00:00+03:00</published><updated>2017-06-21T00:00:00+03:00</updated><id>http://localhost:4000/portfolio/yantar</id><content type="html" xml:base="http://localhost:4000/portfolio/yantar/">&lt;h2&gt;ЖК Янтарь&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-06-26T14:44:28+03:00</updated><id>http://localhost:4000/</id><title type="html">Портфолио</title><subtitle>Верстка сайтов в Краснодарском крае</subtitle><author><name>Киселев Денис</name></author><entry><title type="html">Портфолио</title><link href="http://localhost:4000/portfolio/" rel="alternate" type="text/html" title="Портфолио" /><published>2017-06-22T00:00:00+03:00</published><updated>2017-06-22T00:00:00+03:00</updated><id>http://localhost:4000/portfolio</id><content type="html" xml:base="http://localhost:4000/portfolio/">&lt;section&gt;
+   &lt;div class=&quot;container&quot;&gt;
+    &lt;h2&gt;Портфолио &lt;span&gt;архив&lt;/span&gt;&lt;/h2&gt;
+            &lt;div class=&quot;portfolio-wrap&quot;&gt;
+        
+        &lt;div class=&quot;portfolio-item&quot;&gt;
+            &lt;div class=&quot;facade-minimal&quot; data-url=&quot;http://yantar-krasnodar.ru/&quot;&gt;
+                &lt;a href=&quot;/portfolio/yantar/&quot; class=&quot;portfolio-preview&quot;&gt;
+                    &lt;img src=&quot;/assents/portfolio/preview-yantar.jpg&quot; alt=&quot;Одностраничный сайт ЖК Янтарь&quot;&gt;
+                &lt;/a&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;portfolio-title&quot;&gt;
+                &lt;a href=&quot;/portfolio/yantar/&quot;&gt;Одностраничный сайт ЖК Янтарь&lt;/a&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&quot;portfolio-item&quot;&gt;
+            &lt;div class=&quot;facade-minimal&quot; data-url=&quot;http://uber-partner.moscow/&quot;&gt;
+                &lt;a href=&quot;/portfolio/uber/&quot; class=&quot;portfolio-preview&quot;&gt;
+                    &lt;img src=&quot;/assents/portfolio/preview-uber.jpg&quot; alt=&quot;Одностраничный сайт UBER&quot;&gt;
+                &lt;/a&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;portfolio-title&quot;&gt;
+                &lt;a href=&quot;/portfolio/uber/&quot;&gt;Одностраничный сайт UBER&lt;/a&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&quot;portfolio-item&quot;&gt;
+            &lt;div class=&quot;facade-minimal&quot; data-url=&quot;http://shop.skolkovo.ru/&quot;&gt;
+                &lt;a href=&quot;/portfolio/skolkovo/&quot; class=&quot;portfolio-preview&quot;&gt;
+                    &lt;img src=&quot;/assents/portfolio/preview-skolkovo.jpg&quot; alt=&quot;Сувенирная лавка Сколково&quot;&gt;
+                &lt;/a&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;portfolio-title&quot;&gt;
+                &lt;a href=&quot;/portfolio/skolkovo/&quot;&gt;Сувенирная лавка Сколково&lt;/a&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&quot;portfolio-item&quot;&gt;
+            &lt;div class=&quot;facade-minimal&quot; data-url=&quot;http://mobidacha.ru/&quot;&gt;
+                &lt;a href=&quot;/portfolio/mobidacha/&quot; class=&quot;portfolio-preview&quot;&gt;
+                    &lt;img src=&quot;/assents/portfolio/preview-mobidacha.jpg&quot; alt=&quot;Одностраничный сайт Дом на колесах&quot;&gt;
+                &lt;/a&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;portfolio-title&quot;&gt;
+                &lt;a href=&quot;/portfolio/mobidacha/&quot;&gt;Одностраничный сайт Дом на колесах&lt;/a&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&quot;portfolio-item&quot;&gt;
+            &lt;div class=&quot;facade-minimal&quot; data-url=&quot;http://лестницы-краснодарского-края.рф&quot;&gt;
+                &lt;a href=&quot;/portfolio/lestnicy/&quot; class=&quot;portfolio-preview&quot;&gt;
+                    &lt;img src=&quot;/assents/portfolio/preview-lestnicy.jpg&quot; alt=&quot;Одностраничный сайт по изготовлению лестниц в Краснодарском крае&quot;&gt;
+                &lt;/a&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;portfolio-title&quot;&gt;
+                &lt;a href=&quot;/portfolio/lestnicy/&quot;&gt;Одностраничный сайт по изготовлению лестниц в Краснодарском крае&lt;/a&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&quot;portfolio-item&quot;&gt;
+            &lt;div class=&quot;facade-minimal&quot; data-url=&quot;&quot;&gt;
+                &lt;a href=&quot;/portfolio/gruzovik/&quot; class=&quot;portfolio-preview&quot;&gt;
+                    &lt;img src=&quot;/assents/portfolio/preview-gruzovik.jpg&quot; alt=&quot;Ремонт грузовиков&quot;&gt;
+                &lt;/a&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;portfolio-title&quot;&gt;
+                &lt;a href=&quot;/portfolio/gruzovik/&quot;&gt;Ремонт грузовиков&lt;/a&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&quot;portfolio-item&quot;&gt;
+            &lt;div class=&quot;facade-minimal&quot; data-url=&quot;http://temp.exlibris.ru/&quot;&gt;
+                &lt;a href=&quot;/portfolio/exlibris/&quot; class=&quot;portfolio-preview&quot;&gt;
+                    &lt;img src=&quot;/assents/portfolio/preview-exlibris.png&quot; alt=&quot;Корпоративный сайт ExLibris&quot;&gt;
+                &lt;/a&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;portfolio-title&quot;&gt;
+                &lt;a href=&quot;/portfolio/exlibris/&quot;&gt;Корпоративный сайт ExLibris&lt;/a&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&quot;portfolio-item&quot;&gt;
+            &lt;div class=&quot;facade-minimal&quot; data-url=&quot;http://www.ecotr.ru/&quot;&gt;
+                &lt;a href=&quot;/portfolio/ecotr/&quot; class=&quot;portfolio-preview&quot;&gt;
+                    &lt;img src=&quot;/assents/portfolio/preview-ecotr.jpg&quot; alt=&quot;Сайт-каталог компании Экотрейд&quot;&gt;
+                &lt;/a&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;portfolio-title&quot;&gt;
+                &lt;a href=&quot;/portfolio/ecotr/&quot;&gt;Сайт-каталог компании Экотрейд&lt;/a&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        
+        &lt;div class=&quot;portfolio-item&quot;&gt;
+            &lt;div class=&quot;facade-minimal&quot; data-url=&quot;http://coffeeandthecity.ru/rabota-u-nas/&quot;&gt;
+                &lt;a href=&quot;/portfolio/coffeeandthecity/&quot; class=&quot;portfolio-preview&quot;&gt;
+                    &lt;img src=&quot;/assents/portfolio/preview-coffeeandthecity.jpg&quot; alt=&quot;Верстка отдельной страницы компании Coffee and the City&quot;&gt;
+                &lt;/a&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;portfolio-title&quot;&gt;
+                &lt;a href=&quot;/portfolio/coffeeandthecity/&quot;&gt;Верстка отдельной страницы компании Coffee and the City&lt;/a&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/section&gt;</content><author><name>Киселев Денис</name></author><summary type="html">Портфолио архив Одностраничный сайт ЖК Янтарь Одностраничный сайт UBER Сувенирная лавка Сколково Одностраничный сайт Дом на колесах Одностраничный сайт по изготовлению лестниц в Краснодарском крае Ремонт грузовиков Корпоративный сайт ExLibris Сайт-каталог компании Экотрейд Верстка отдельной страницы компании Coffee and the City</summary></entry><entry><title type="html">Одностраничный сайт ЖК Янтарь</title><link href="http://localhost:4000/portfolio/yantar/" rel="alternate" type="text/html" title="Одностраничный сайт ЖК Янтарь" /><published>2017-06-21T00:00:00+03:00</published><updated>2017-06-21T00:00:00+03:00</updated><id>http://localhost:4000/portfolio/yantar</id><content type="html" xml:base="http://localhost:4000/portfolio/yantar/">&lt;h2&gt;ЖК Янтарь&lt;/h2&gt;
 &lt;p&gt;
 &lt;b&gt;Движок сайта:&lt;/b&gt; Wordpress&lt;br&gt;
 &lt;b&gt;Время выполнения:&lt;/b&gt; 10 дней

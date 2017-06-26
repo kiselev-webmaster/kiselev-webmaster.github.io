@@ -22,6 +22,10 @@ body{
 h2 {
     font-size: 36px;
     display: inline-block;
+    span{
+        font-size: 50%;
+        color: coral;
+    }
     &:after {
         content: '';
         display: block;
